@@ -1,0 +1,119 @@
+BODY {
+	FONT-SIZE: 12px; BACKGROUND: #fbfbfb; COLOR: #333333
+}
+div{alignment-adjust:central}
+TD {
+	FONT-SIZE: 12px
+}
+INPUT {
+	BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 12px; BORDER-BOTTOM-WIDTH: 1px; BORDER-RIGHT-WIDTH: 1px
+}
+TEXTAREA {
+	BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 12px; BORDER-BOTTOM-WIDTH: 1px; BORDER-RIGHT-WIDTH: 1px
+}
+SELECT {
+	BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 12px; BORDER-BOTTOM-WIDTH: 1px; BORDER-RIGHT-WIDTH: 1px
+}
+A:link {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #000000; TEXT-DECORATION: underline
+}
+A.highlight:link {
+	COLOR: red; TEXT-DECORATION: none
+}
+A.highlight:visited {
+	COLOR: red; TEXT-DECORATION: none
+}
+A.highlight:hover {
+	COLOR: red; TEXT-DECORATION: underline
+}
+A.thisclass:link {
+	FONT-WEIGHT: bold; COLOR: #000000; TEXT-DECORATION: none
+}
+A.thisclass:visited {
+	FONT-WEIGHT: bold; COLOR: #000000; TEXT-DECORATION: none
+}
+A.thisclass:hover {
+	FONT-WEIGHT: bold; COLOR: #666666
+}
+A.navlink:link {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A.navlink:visited {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A.navlink:hover {
+	COLOR: #666666; TEXT-DECORATION: none
+}
+.twidth {
+	WIDTH: 760px
+}
+
+
+.lframe-t-mid {
+	BACKGROUND: url(lframe_t.gif); HEIGHT: 23px; TEXT-ALIGN: left
+}
+.lframe-t-left {
+	BACKGROUND: url(lframe_t_l.gif); WIDTH: 5px
+}
+.lframe-t-right {
+	BACKGROUND: url(lframe_t_r.gif); WIDTH: 45px
+}
+.lframe-t-text {
+	PADDING-LEFT: 10px; FILTER: dropshadow(color=#999999,OffX=1,OffY=1,Positive=1); WIDTH: 100%; COLOR: #000000
+}
+.lframe-m-mid {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; BACKGROUND: #eeeeee; PADDING-BOTTOM: 3px; PADDING-TOP: 3px
+}
+.lframe-m-left {
+	BACKGROUND: #c7c7c7; WIDTH: 1px
+}
+.lframe-m-right {
+	BACKGROUND: #c7c7c7; WIDTH: 1px
+}
+.lframe-b-mid {
+	BORDER-TOP: #c7c7c7 1px solid; FONT-SIZE: 1px; BACKGROUND: none transparent scroll repeat 0% 0%; HEIGHT: 13px
+}
+.lframe-b-left {
+	DISPLAY: none; BACKGROUND: none transparent scroll repeat 0% 0%; WIDTH: 0px
+}
+.lframe-b-right {
+	DISPLAY: none; BACKGROUND: none transparent scroll repeat 0% 0%; WIDTH: 0px
+}
+.mframe-t-mid {
+	BACKGROUND: url(mframe_t.gif); HEIGHT: 23px; TEXT-ALIGN: left
+}
+.mframe-t-left {
+	BACKGROUND: url(mframe_t_l.gif); WIDTH: 5px
+}
+.mframe-t-right {
+	BACKGROUND: url(mframe_t_r.gif); WIDTH: 80px
+}
+.mframe-t-text {
+	PADDING-LEFT: 10px; WIDTH: 100%; COLOR: #000000
+}
+.mframe-m-mid {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; BACKGROUND: #efefef; PADDING-BOTTOM: 3px; PADDING-TOP: 3px
+}
+.mframe-m-left {
+	BACKGROUND: #ababab; WIDTH: 1px
+}
+.mframe-m-right {
+	BACKGROUND: #ababab; WIDTH: 1px
+}
+.mframe-b-mid {
+	BORDER-TOP: #ababab 1px solid; FONT-SIZE: 1px; BACKGROUND: none transparent scroll repeat 0% 0%; HEIGHT: 13px
+}
+.mframe-b-left {
+	DISPLAY: none; BACKGROUND: none transparent scroll repeat 0% 0%; WIDTH: 1px
+}
+.mframe-b-right {
+	DISPLAY: none; BACKGROUND: none transparent scroll repeat 0% 0%; WIDTH: 1px
+}
+
+

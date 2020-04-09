@@ -1,0 +1,44 @@
+div
+{
+	/*margin-left:300px;*/
+	margin-top:10px;
+}
+.textInput input
+{
+	height:30px;
+	width:300px;
+	margin-left:20px;
+}
+#center
+{
+	margin-left: 300px;
+}
+#inputSId
+{
+	
+}
+#inputId
+{
+	color:red;
+}
+#inputEmail
+{
+	
+}
+#inputmail
+{
+	color:red;
+}
+#myPassword
+{
+	color:red;
+}
+#confirmpassword
+{
+	color:red;
+}
+.check input
+{
+	height:30px;
+	margin-left:20px;
+}

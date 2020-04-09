@@ -1,0 +1,284 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>家校互动系统</title>
+<meta http-equiv="Content-type" content="text/html;charset=utf-8">
+<link rel="stylesheet" href="css/style.css" type="text/css">
+<link type="text/css" rel="stylesheet" href="css/login.css">
+</head>
+
+<body>
+
+<div class="top_box"><div class="top"><div class="login_logo"></div></div></div>
+
+<form action="login" method="post">
+<table class="twidth" cellpadding=0 cellspacing=0 align=center>
+<tr align="left" valign=top >
+<td width=200>
+	<table width=95% cellspacing=0 cellpadding=0>
+	<tr>
+	<td background="images/HE2.GIF"width="191" height="25">　&nbsp;&nbsp;&nbsp;           
+      用 户 登 录</td>        
+	</tr>
+	</table>
+	<table width=95% cellspacing=0 cellpadding=0>
+	<tr>
+	<td class="lframe-m-left"></td>
+	<td class="lframe-m-mid">
+	
+		<table width=95% align=center cellpadding=0 cellspacing=0 border=0>
+
+		
+		<tr><td valign=top align=center >
+			<table width=100% cellpadding=3><tr><td align=center>
+			账号名：<input type=text class=inputbg name="userName" size=15 maxlength=50>
+			</td></tr><tr><td align=center>
+			密　码：<input type=password class=inputbg name="password" size=15 maxlength=50><br>
+			</td></tr><tr><td align=center>
+			登录角色：<select name="loginRole">
+				<option value="teacher">教师</option>
+				<option value="student">学生</option>
+				<option value="parent">家长</option>
+				</select>
+			</td></tr><tr><td align=center>
+			<input type=submit value="登陆" onClick="return checkForm();">&nbsp;         
+            <input type=button onClick="window.location='student/activate.jsp'" value="激活/注册">                       
+			</td></tr>
+			<tr><td align=center>
+            <a href="http://www.richiecn.com/" target=_blank>忘记密码</a>                          
+			</td></tr>
+			</table>
+		</td></tr>
+		</table>
+	
+	</td>
+	<td class="lframe-m-right"></td>
+	</tr>
+	</table>
+	<table width=95% cellspacing=0 cellpadding=0 >
+	<tr>
+	<td class="lframe-b-left"></td>
+	<td class="lframe-b-mid">　</td>
+	<td class="lframe-b-right"></td>
+	</tr>
+	</table>
+
+
+	<table width=95% cellspacing=0 cellpadding=0>
+	<tr>
+	<td background="images/HE2.GIF"width="191" height="25">　&nbsp;&nbsp;&nbsp;           
+      关 于 学 校</td>          
+	</tr>
+	</table>
+	<table width=95% cellspacing=0 cellpadding=0>
+	<tr>
+	<td class="lframe-m-left"></td>
+	<td class="lframe-m-mid">
+   			&nbsp;&nbsp;&nbsp;&nbsp;淮阴师范学院是周恩来总理故乡的一所省属本科院校，坐落在风光秀美、人文荟萃的国家历史文化名城――江苏省淮安市。学校有50余年的高等教育办学历史。有王营、交通路两个校区，校园1800余亩，校舍55万平方米；有17个二级学院和1个民办二级学院（文通学院），57个普高本科专业，全日制普高在校生2万余人，在籍成教生6000余人。
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#"><span style="color:#FF6600">了解更多</span></a></td>
+		
+	<td class="lframe-m-right"></td>
+	</tr>
+	</table>
+	<table width=95% cellspacing=0 cellpadding=0 >
+	<tr>
+	<td class="lframe-b-left"></td>
+	<td class="lframe-b-mid">　</td>
+	<td class="lframe-b-right"></td>
+	</tr>
+	</table>
+	
+
+
+	<table width=95% cellspacing=0 cellpadding=0>
+	<tr>
+	<td background="images/HE2.GIF" width="191" height="25">　&nbsp;&nbsp;&nbsp;           
+      最 新 留 言</td>          
+	</tr>
+	</table>
+	<table width=95% cellspacing=0 cellpadding=0>
+	<tr>
+	<td class="lframe-m-left"></td>
+	<td class="lframe-m-mid">
+       等待加入<br/><br/>
+        1<br/><br/>
+        123<br><br/>
+        等待加入<br><br/>
+        asdasdsad<br> <br/>
+        asdasdasdas
+                 
+	</td>
+	<td class="lframe-m-right"></td>
+	</tr>
+	</table>
+	<table width=95% cellspacing=0 cellpadding=0 >
+	<tr>
+	<td class="lframe-b-left"></td>
+	<td class="lframe-b-mid">　</td>
+	<td class="lframe-b-right"></td>
+	</tr>
+	</table>
+	
+</td>
+<td>
+
+	<table width=100% cellspacing=0 cellpadding=0>
+	<tr>
+	<td width="559" height="25" background="images/HE1.gif">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                
+      模 块 进 入</td>                       
+	</tr>
+	</table>
+    <table width="100%" cellspacing="0" cellpadding="0">
+    <div class="login">
+      <div class="login_con">
+		  <a href="student/main.jsp" title="家长模块" class="xxgly">学生模块</a> 
+		  <a href="teacher/main.jsp" title="教师模块" class="xxls">教师模块</a> 
+		  <a href="parent/main.jsp" title="学生模块" class="jiaz">家长模块</a>    
+        	</div>		  
+    </div>
+	</table>
+	<table cellspacing=0 cellpadding=0 width=100%>
+	<tr><td>
+		
+		<table id="dlAll" cellspacing="0" border="0" style="width:100%;border-collapse:collapse;">
+	<tr>
+		<td valign="Top" style="width:50%;">
+				<table width=383 cellspacing=0 cellpadding=0>
+				<tr>
+				<td width="393" background="images/HE3.gif" height="25">　&nbsp;&nbsp;&nbsp;&nbsp;          
+                  热 门 话 题</td>         
+				</tr>
+				</table>
+				<table width=100% cellspacing=0 cellpadding=0>
+				<tr>
+				<td class="mframe-m-left"></td>
+				<td class="mframe-m-mid">
+					<table width=373 cellpadding=0 cellspacing=0 border=0 height="182">
+						
+						<tr><td width="282" height="14">
+        <img border="0" src="images/bullet.gif" width="10" height="10">  
+                        波斯猫
+						</td><td width=87 align=center height="14">
+                        <font color="#808080">SHE</font>
+						</td></tr>
+						
+						<tr><td width="282" height="14">
+        <img border="0" src="images/bullet.gif" width="10" height="10">  
+                        记得我爱你         
+						</td><td width=87 align=center height="14">
+                        <font color="#808080">周渝民</font>
+						</td></tr>
+						
+						<tr><td width="282" height="14">
+        <img border="0" src="images/bullet.gif" width="10" height="10">  
+                        断点                 
+						</td><td width=87 align=center height="14">
+						<span class="gray"><font color="#808080">张敬轩</font></span>
+						</td></tr>
+						
+						<tr><td width="282" height="14">
+        <img border="0" src="images/bullet.gif" width="10" height="10">  
+                        泪桥                 
+						</td><td width=87 align=center height="14">
+						<span class="gray"><font color="#808080">伍佰</font></span>
+						</td></tr>
+						
+						<tr><td width="282" height="14">
+        <img border="0" src="images/bullet.gif" width="10" height="10">  
+                        我不是黄蓉                 
+						</td><td width=87 align=center height="14">
+						<span class="gray"><font color="#808080">王蓉</font></span>
+						</td></tr>
+						
+						<tr><td width="282" height="14">
+        <img border="0" src="images/bullet.gif" width="10" height="10">  
+                        算你狠                 
+						</td><td width=87 align=center height="14">
+						<span class="gray"><font color="#808080">陈小春</font></span>
+						</td></tr>
+						
+						<tr><td width="282" height="14">
+        <img border="0" src="images/bullet.gif" width="10" height="10">  
+                        小薇
+						</td><td width=87 align=center height="14">
+						<span class="gray"><font color="#808080">黄品源</font></span>
+						</td></tr>
+						
+						<tr><td width="282" height="14">
+        <img border="0" src="images/bullet.gif" width="10" height="10">  
+                        如果这都不算爱                 
+						</td><td width=87 align=center height="14">
+						<span class="gray"><font color="#808080">张学友</font></span>
+						</td></tr>
+						
+						<tr><td width="282" height="14">
+        <img border="0" src="images/bullet.gif" width="10" height="10">  
+                        SUPER STAT                          
+						</td><td width=87 align=center height="14">
+						<span class="gray"><font color="#808080">SHE</font></span>
+						</td></tr>
+						
+					</table>
+				</td>
+				<td class="mframe-m-right"></td>
+				</tr>
+				</table>
+				<table width=100% cellspacing=0 cellpadding=0 >
+				<tr>
+				<td class="mframe-b-left"></td>
+				<td class="mframe-b-mid">　</td>
+				<td class="mframe-b-right"></td>
+				</tr>
+				</table>
+			</td>
+	</tr>
+	
+	
+</table>
+	</td><td width=180 valign=top align=right>
+		<table width=95% cellspacing=0 cellpadding=0>
+		<tr>
+		<td background="images/HE4.GIF" width="172" height="25">　&nbsp;&nbsp;&nbsp;      
+          校 园 新 闻</td>          
+		</tr>
+		</table>
+		<table width=95% cellspacing=0 cellpadding=0>
+		<tr>
+		<td class="mframe-m-left"></td>
+		<td class="mframe-m-mid">
+			<table cellpadding=2 cellspacing=0 border=0>
+                  	<tr align=center>
+                  		<td width=200>1
+                  			<br>2<br>3<br>4<br>5<br>
+                  		</td>
+                  	</tr>
+           </table>                     
+		</td>
+		<td class="mframe-m-right"></td>
+		</tr>
+		</table>
+		<table width=95% cellspacing=0 cellpadding=0 >
+		<tr>
+		<td class="mframe-b-left"></td>
+		<td class="mframe-b-mid">　</td>
+		<td class="mframe-b-right"></td>
+		</tr>
+		</table>
+	</td></tr>
+	</table>
+	
+    
+</td>
+</tr>
+</table>
+</form>
+
+<div class="footer_box">
+        <div class="footer">
+            <p>老鱼的故事<span style="color:#FF6600">v1.0版本</span>　丨网站所有：老鱼的故事
+            &nbsp;&nbsp;&nbsp;&nbsp;<a href="admin/login.html"><span style="color:#FF6600">后台登录</span></a>  
+        </div>
+    </div>
+
+</body>
+

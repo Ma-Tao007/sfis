@@ -1,0 +1,10 @@
+eclipse.preferences.version=1
+encoding//WebContent/replyContent.jsp=UTF-8
+encoding//src/com/filter/LoginFilter.java=UTF-8
+encoding//src/com/filter/ParentLoginFilter.java=UTF-8
+encoding//src/com/filter/StudentLoginFilter.java=UTF-8
+encoding//src/com/filter/TeacherLoginFilter.java=UTF-8
+encoding//src/com/servlets/LoginServlet.java=UTF-8
+encoding//src/com/servlets/ReplyMessageServlet.java=UTF-8
+encoding//src/com/util/DateUtil.java=UTF-8
+encoding/<project>=UTF-8
